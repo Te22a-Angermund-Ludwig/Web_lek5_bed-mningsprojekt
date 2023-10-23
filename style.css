@@ -12,7 +12,32 @@ body{
 }
 
 .stjärna{
-    max-width: 20px;
-    max-height: 20px;
+    max-width: 25px;
+    max-height: 25px;
     margin-top: 13px;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.Rubrik{
+    background-color: rgb(190, 190, 190);
+    margin: 5px;
+    padding: 7px;
+    grid-column: 1/ span 2;
+}
+
+.Lasagne{
+    grid-column: 3/ span 2;
+    margin: 5px;
+}
+
+.lasagnebild{
+    max-height: 300px;
+    min-width: 600px;
 }
