@@ -14,7 +14,7 @@ body{
 .stjärna{
     max-width: 25px;
     max-height: 25px;
-    margin-top: 13px;
+    margin-top: 10px;
 }
 
 h1{
@@ -41,3 +41,10 @@ h2{
     max-height: 350px;
     min-width: 600px;
 }
+
+.Review{
+    display:flex;
+    flex: content;
+    flex-direction: row;
+}
+
