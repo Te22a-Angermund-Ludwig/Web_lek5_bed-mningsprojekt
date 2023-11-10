@@ -174,7 +174,7 @@ margin-left: 25px;
 }
 
 main{
-    grid-column: 2/4;
+    grid-column: 2/5;
     background-color: rgb(190, 190, 190);
     border-radius: 7px;
     margin: 5px;
@@ -183,7 +183,6 @@ main{
 h5{
     text-align: center;
     font-size: 30px;
-    padding-top: -20px;
 }
 
 ol{
@@ -206,4 +205,24 @@ ol{
 .ikon{
     height: 100px;
     width: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    grid-column: 1/5;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 7px;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 20px;
 }
