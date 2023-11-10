@@ -121,7 +121,7 @@ nav{
     margin: 5px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: repeat(16, 55px);
+    grid-template-rows: repeat(16, 45px);
     align-items: center;
 }
 
@@ -183,4 +183,27 @@ main{
 h5{
     text-align: center;
     font-size: 30px;
+    padding-top: -20px;
+}
+
+ol{
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.lista{
+    padding-left: 50px;
+}
+
+.receptrubrik{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.ikon{
+    height: 100px;
+    width: auto;
 }
